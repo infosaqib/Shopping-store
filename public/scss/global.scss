@@ -1,0 +1,41 @@
+html,
+body {
+  box-sizing: border-box;
+  width: 100%;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: sans-serif;
+}
+
+*::selection {
+  background-color: #000;
+  color: #fff;
+}
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+  body::-webkit-scrollbar {
+    background: transparent;
+    width: 14px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 33%);
+    border-radius: 20px;
+    border: 3px solid #fff;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #0000009e;
+  }
+
+ 
+}
